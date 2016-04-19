@@ -1,0 +1,167 @@
+/*
+ Theme Name:   Passionate Child
+ 
+ Description: Passionate Child Theme
+ Author:       Olga Kuvshinova
+ Author URI:   http://lolga.org
+ Template:     passionate
+ Version:      1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, white, one-column, two-columns, three-columns, right-sidebar, left-sidebar, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, threaded-comments, featured-images, post-formats, translation-ready, full-width-template, fluid-layout, sticky-post
+ Text Domain:  passionate
+*/
+
+/* My work */
+
+.my-work {
+	text-align: center;
+}
+
+.my-work h2 {
+	color: white;
+	size: 50px;
+	text-transform: uppercase;
+
+
+}
+
+.my-work a {
+	color: white;
+	font-size: 32px;
+}
+
+.button1 {
+	background-color: red;
+	padding: 15px 32px;
+    text-align: center;
+    border-radius: 12px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.button {
+	background-color: red;
+	padding: 15px 32px;
+    text-align: center;
+    border-radius: 12px;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+.button:hover {
+    background-color: white ; 
+    color: red;
+}
+
+.button1:hover {
+    background-color: white ; 
+    color: red;
+}
+
+#first {
+
+	margin-right: 15%;
+}
+
+#second {
+	margin-left: 15%
+}
+
+section.my-work {
+	background: url("img/collage.jpg") no-repeat center center fixed; 
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+	text-transform: capitalize;
+}
+	
+#artworks {
+	padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+ @media all and (min-width:0px) 
+  and (max-width: 480px) {
+  	#first, #second {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 2%;
+}
+}
+
+
+/* Contacts */
+
+.contacts li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 8%;
+}
+
+#map {
+	margin-left: 15%;
+}
+
+.contacts h2 {
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%
+}
+
+.contacts {
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+/* section.main-contacts {
+ 	border-top:  solid medium;
+ }*/
+
+
+/* about author */
+
+.about-author {
+	text-align: center;
+
+}
+
+
+section.home-page {
+    margin-left: 5%;
+	width: 90%;
+}
+
+
+.home-page h2 {
+	    margin-bottom: 3%;
+}
+
+.home-page img {
+    vertical-align: middle;
+    float: left;
+    margin: 2%;
+}
+
+#one {
+	float: right;
+}
+
+.fabs {
+	    text-align: -webkit-left;
+}
+
+.sabs {
+
+	 text-align: -webkit-left;
+}
+
+/* instagram feed */
+
+section.main-insta {
+
+	margin-top: 2%
+}

@@ -1,0 +1,239 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Splendor 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-04-12 09:00-0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: esc_html__;__;esc_html_e;_nx;esc_html_x:1,2c;_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: 404.php:17
+#, php-format
+msgid "It looks like nothing was found at this location. Try <a href=\"%1$s\">returning home</a> or performing a search."
+msgstr ""
+
+#: archive.php:35 index.php:46
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:38 index.php:49
+msgid "Next Page"
+msgstr ""
+
+#: archive.php:41 index.php:52
+msgid "Page"
+msgstr ""
+
+#: comments.php:29
+msgid "Reader Comments"
+msgstr ""
+
+#: comments.php:40 comments.php:67
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44 comments.php:71
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:48 comments.php:75
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:25
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:25
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr ""
+
+#: functions.php:47 header.php:58
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Social Media Menu"
+msgstr ""
+
+#: functions.php:114
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:116
+msgid "This sidebar appears on the left side of the widget area."
+msgstr ""
+
+#: functions.php:124
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:126
+msgid "This sidebar appears on the right side of the widget area."
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Niconne, translate this to 'off'. Do not translate into your own language.
+#: functions.php:162
+msgctxt "Niconne font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Belleza, translate this to 'off'. Do not translate into your own language.
+#: functions.php:167
+msgctxt "Belleza font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Cabin, translate this to 'off'. Do not translate into your own language.
+#: functions.php:172
+msgctxt "Cabin font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:200
+msgid "Color Scheme"
+msgstr ""
+
+#: functions.php:201
+msgid "Select the desired color scheme."
+msgstr ""
+
+#: functions.php:217
+msgctxt "the precious gem"
+msgid "Lapis Lazuli (default)"
+msgstr ""
+
+#: functions.php:218
+msgctxt "the precious gem"
+msgid "Hematite"
+msgstr ""
+
+#: functions.php:219
+msgctxt "the precious gem"
+msgid "Rose Gold"
+msgstr ""
+
+#: functions.php:220
+msgctxt "the precious gem"
+msgid "Emerald"
+msgstr ""
+
+#: functions.php:221
+msgctxt "the precious gem"
+msgid "Amethyst"
+msgstr ""
+
+#: functions.php:245
+msgid "Read More &raquo;"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:52
+msgid "Site logo"
+msgstr ""
+
+#: inc/template-tags.php:37
+#, php-format
+msgid "Searched for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/template-tags.php:38
+msgid "1 Result"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "Oops!"
+msgstr ""
+
+#. translators: this string represents a human-readable time difference
+#: inc/template-tags.php:70
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:93 inc/template-tags.php:99
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:107
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:112 template-parts/content-page.php:32
+#, php-format
+msgctxt "%s = name of current post"
+msgid "Edit %s"
+msgstr ""
+
+#: single.php:22
+msgid "Next"
+msgstr ""
+
+#: single.php:23
+msgid "Next Post"
+msgstr ""
+
+#: single.php:26
+msgid "Previous"
+msgstr ""
+
+#: single.php:27
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/content-none.php:15
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:19
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:23
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:25 template-parts/content.php:35
+msgid "Pages"
+msgstr ""
