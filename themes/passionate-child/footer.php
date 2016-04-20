@@ -68,8 +68,10 @@
 					<div class="col-lg-6 col-md-6">
 						<div class="dt-footer-designer">
 							<?php printf( esc_html__( 'Powered %1$s by %2$s', 'passionate' ), '', '<a href="https://wordpress.org/" target="_blank">WordPress</a>' ); ?>
-							<span class="sep"> &amp; </span>
+							<span class="sep"> | </span>
 							<?php _e( 'Designed by', 'passionate' ); ?> <a href="<?php echo esc_url( 'http://daisythemes.com/'); ?>" target="_blank" rel="designer"><?php _e( 'Daisy Themes', 'passionate' )?></a>
+							<span class="sep"> | </span>
+						    <a href="http://lolga.org/">Customized by lolga</a>
 						</div><!-- .dt-footer-designer -->
 					</div><!-- .col-lg-6 .col-md-6 -->
 				</div><!-- .row -->

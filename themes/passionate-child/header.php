@@ -22,36 +22,7 @@
 
 <body <?php body_class(); ?>>
 
-	<div class="dt-layout-boxed<?php if ( get_theme_mod( 'passionate_default_layout', 0 ) == 'wide_layout' ) : ?> dt-layout-wide<?php endif; ?>">
-		<header class="dt-header">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-						<div class="dt-logo">
-
-							<?php if ( get_theme_mod( 'passionate_logo', 0 ) != '' ) : ?>
-								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php echo esc_url( get_theme_mod( 'passionate_logo' ) ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
-							<?php else : ?>
-								<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-								<?php
-								$description = get_bloginfo( 'description', 'display' );
-								if ( $description || is_customize_preview() ) : ?>
-									<p class="site-description"><?php echo $description; ?></p>
-								<?php endif; ?>
-							<?php endif ?>
-
-						</div><!-- .dt-logo -->
-					</div><!-- .col-lg-4 .col-md-4 .col-sm-4 .col-xs-12 -->
-
-					
-
-							
-
-						</div><!-- .dt-top-social -->
-					</div><!-- .col-lg-8 .col-md-8 .col-sm-9 .col-xs-12 -->
-				</div><!-- .row -->
-			</div><!-- .container -->
-		</header><!-- .dt-header -->
+	
 		
 	<?php $header_image = get_header_image();
 		if ( ! empty( $header_image ) ) : ?>
@@ -70,6 +41,16 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12">
+						<ul class="header">
+						<li class="namelogo">
+						<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+								<?php
+								$description = get_bloginfo( 'description', 'display' );
+								if ( $description || is_customize_preview() ) : ?>
+									<p class="site-description"><?php echo $description; ?></p>
+								<?php endif; ?>
+						</li>
+						<li class="namemenu">
 							<div class="dt-main-menu">
 								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 							</div><!-- .dt-main-menu -->
@@ -81,6 +62,8 @@
 							<div class="dt-nav-md">
 								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 							</div><!-- .dt-nav-md .transition35 -->
+						</li>
+						</ul>
 						</div><!-- .col-lg-12 .col-md-12 -->
 					</div><!-- .row -->
 				</div><!-- .container -->

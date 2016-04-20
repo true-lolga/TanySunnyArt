@@ -32,7 +32,7 @@ Tags: light, white, one-column, two-columns, three-columns, right-sidebar, left-
 }
 
 .button1 {
-	background-color: red;
+	background-color: #705851;
 	padding: 15px 32px;
     text-align: center;
     border-radius: 12px;
@@ -42,7 +42,7 @@ Tags: light, white, one-column, two-columns, three-columns, right-sidebar, left-
 }
 
 .button {
-	background-color: red;
+	background-color: #705851;
 	padding: 15px 32px;
     text-align: center;
     border-radius: 12px;
@@ -53,12 +53,12 @@ Tags: light, white, one-column, two-columns, three-columns, right-sidebar, left-
 
 .button:hover {
     background-color: white ; 
-    color: red;
+    color: #705851;
 }
 
 .button1:hover {
     background-color: white ; 
-    color: red;
+    color: #705851;
 }
 
 #first {
@@ -164,4 +164,40 @@ section.home-page {
 section.main-insta {
 
 	margin-top: 2%
+}
+
+
+/* header */
+
+ul.header {
+	list-style: none;
+    display: inline-flex;
+    width: 100%;
+}
+
+li.namemenu {
+
+	margin-left: 50%;
+    float: left;
+    margin-top: 5%;
+}
+
+
+.menu-menu-1-container a {
+	font-size: 18px;
+}
+
+li.namelogo {
+	    color: #705851;
+}
+
+/* contacts2 */
+#ocn {
+	float: left;
+	margin-right: 15%;
+}
+
+#post-38 h2 {
+    margin-bottom: 5%;
+    text-align: -webkit-center;
 }
