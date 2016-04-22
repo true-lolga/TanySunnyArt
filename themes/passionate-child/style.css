@@ -12,8 +12,24 @@ Tags: light, white, one-column, two-columns, three-columns, right-sidebar, left-
  Text Domain:  passionate
 */
 
-/* My work */
 
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond&subset=latin,cyrillic,cyrillic-ext,latin-ext);
+
+
+
+body, h1, h2, p, a, {
+	font-family: 'EB Garamond', serif !important;
+}
+
+.homepage, .main-insta, .main-contacts {
+	font-family: 'EB Garamond', serif !important;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+}
+
+/* My work */
 .my-work {
 	text-align: center;
 }
@@ -84,7 +100,7 @@ section.my-work {
     padding-top: 10%;
 }
 
- @media all and (min-width:0px) 
+ @media all and (min-width:320px) 
   and (max-width: 480px) {
   	#first, #second {
   margin-left: 0;
@@ -92,7 +108,21 @@ section.my-work {
   margin-bottom: 2%;
 }
 }
+ @media all and (min-width:0px) 
+  and (max-width: 320px) {
+  	#first, #second {
+  		color: white;
+  	}
 
+.button1 {
+	margin-right: 10%;
+    margin-left: 5%;
+}
+
+.button, .button1 {
+	padding: 0;
+}
+}
 
 /* Contacts */
 
@@ -143,7 +173,8 @@ section.home-page {
 .home-page img {
     vertical-align: middle;
     float: left;
-    margin: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 
 #one {
@@ -157,7 +188,9 @@ section.home-page {
 .sabs {
 
 	 text-align: -webkit-left;
+	     margin-top: 3%;
 }
+
 
 /* instagram feed */
 
@@ -177,7 +210,7 @@ ul.header {
 
 li.namemenu {
 
-	margin-left: 50%;
+	margin-left: 40%;
     float: left;
     margin-top: 5%;
 }
@@ -187,9 +220,52 @@ li.namemenu {
 	font-size: 18px;
 }
 
-li.namelogo {
+li.namelogo h1, a {
 	    color: #705851;
 }
+
+.row a {
+    color: #705851;
+
+}
+
+@media all and (min-width:320px) 
+  and (max-width: 480px) {
+  li.namemenu {
+     margin-left: 0; 
+    float: none; 
+    margin-top: 19%;
+}
+  }
+
+@media all and (min-width:0px) 
+  and (max-width: 320px) {
+  	li.namemenu {
+     margin-left: 0; 
+    float: right;
+    margin-top: 0;
+    margin-right: 30%;
+}
+
+ul.header {
+    list-style: none;
+    display: initial;
+    width: 100%;
+}
+
+li.namelogo {
+    text-align: center;
+}
+
+
+#map {
+   margin-left: 0;
+   margin-right: 10%;
+}
+  
+}
+
+
 
 /* contacts2 */
 #ocn {
