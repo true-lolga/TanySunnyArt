@@ -1350,7 +1350,7 @@ msgstr "Das passiert, wenn die Fenstergröße des Browsers verändert wird"
 
 #: includes/feed-them-functions.php:1374
 msgid "Instagram Fixed Height"
-msgstr "Intagram feste Höhe"
+msgstr "Instagram feste Höhe"
 
 #: includes/feed-them-functions.php:1394
 msgid "# of Pics (default 6)"
